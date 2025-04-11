@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="#" method="post">
+        <label for="nome">Nome:</label>
+        <input type="text" name="nome" id="nome" required>
+        <br><br>
+        <label for="idade">Idade:</label>
+        <input type="number" name="idade" id="idade" required>
+        <br><br>
+        <label for="sexo">Sexo:</label>
+        <select name="sexo" id="sexo">
+            <option value="masculino">Masculino</option>
+            <option value="feminino">Feminino</option>
+            <option value="outro">Outro</option>
+        </select>
+        <br><br>
+        <input type="submit" value="Enviar">
+    </form>
+
+<!--    
+form é um elemento HTML que cria um formulário para coletar dados do usuário.
+action="#" define o destino dos dados do formulário quando enviados. O valor # indica que os dados não serão enviados para lugar nenhum, apenas para fins de demonstração.
+method="post" especifica que os dados do formulário serão enviados usando o método POST, que é mais seguro para enviar informações sensíveis.
+label é usado para associar um rótulo a um campo de entrada, melhorando a acessibilidade.
+options são as opções disponíveis em um menu suspenso (select). Cada option tem um valor associado que será enviado quando o formulário for enviado.
+input type="submit" cria um botão que envia o formulário quando clicado.           
+ -->
+<form action="#" method="get" target="_blank" autocomplete="off">
+    <section>
+        <h2>Formulário de Cadastro</h2>
+        <label for="nome">Nome:</label>
+    
+        <input type="text" id="nome" name="nome"
+        placeholder="Digite seu nome" value="Digite seu nome">   <br><br>  
+
+        <label for="idade">Idade:</label>
+        <input type="number" id="idade" name="idade" required><br><br>
+
+        <label for="sexo">Sexo:</label>
+        <select id="sexo" name="sexo">
+            <option value="masculino">Masculino</option>
+            <option value="feminino">Feminino</option>
+            <option value="outro">Outro</option>
+        </select><br><br>
+
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Limpar"><br><br>
+        <input type="checkbox" id="termos" name="termos" required>
+    </section>
+    <!--
+    required é um atributo que indica que o campo deve ser preenchido antes de enviar o formulário.
+    placeholder fornece um texto de exemplo dentro do campo de entrada, indicando o que deve ser inserido.
+    value define um valor padrão que será exibido no campo de entrada quando a página for carregada.
+    submit cria um botão que envia o formulário quando clicado.
+    reset cria um botão que limpa todos os campos do formulário quando clicado.
+    checkbox cria uma caixa de seleção que o usuário pode marcar ou desmarcar. Neste caso, é usada para aceitar os termos do formulário.
+    target="_blank" faz com que o formulário seja enviado em uma nova aba ou janela do navegador.
+    autocomplete="off" desativa o preenchimento automático do navegador para os campos do formulário.
+    for é um atributo que associa o rótulo a um campo de entrada específico, melhorando a acessibilidade.
+    -->
+  
+</form>
+</body>
+</html>
