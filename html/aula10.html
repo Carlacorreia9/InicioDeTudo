@@ -12,14 +12,58 @@
         }
         nav{
            height: 50px;
-           background: black
-      
+           background: red;
         }
+
+     nav a{
+            color: white;
+            text-decoration: none;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            padding: 10px 20px;
+            display: block;
+            text-transform: uppercase;
+        }
+        /* 
+        color: white; é para deixar a cor do texto branco.
+        text-decoration: none; é para tirar o sublinhado do texto.
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; é para deixar a fonte do texto com a fonte do sistema operacional. 
+        padding: 10px 20px; é para deixar um espaço de 10px em cima e embaixo e 20px a esquerda e a direita do elemento.
+        display: block; é para deixar o elemento como um bloco.
+        text-transform: uppercase; é para deixar o texto em maiúsculo.
+        */
+ -->
+
+        nav a:hover{
+            background: rgba(0, 0, 0, 0.3);
+        }
+        /*
+        background: rgba(0, 0, 0, 0.3); é para deixar o fundo preto com 30% de opacidade.
+        */
+
+        nav {
+            display: flex;
+            align-items: center;
+        }
+
+        /* 
+        display: flex; é para deixar o elemento como um flexbox. 
+        align-items: center; é para alinhar os itens no centro do elemento.
+        */
+
+        nav ul{
+            display: flex;
+            list-style: none;
+        }
+
     </style>
 </head>
 <body>
 <nav>
-
+    <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Sobre</a></li>
+        <li><a href="#">Contato</a></li>
+    </ul>
 </nav>
     <ul>
         <li>item 1</li>

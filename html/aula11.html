@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 20px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+
+        table td, table th {
+            border: 1px solid black;
+            padding: 10px;
+            text-align: center;
+        }
+
+        table caption {
+            caption-side: bottom;
+            font-size:top;
+            text-align: left;
+            font-style: italic;
+            font-size: 14px;
+            margin: 5px 0;
+        }
+
+    tfoot td, table th{
+            background-color: #dddddd;
+        }
+    </style>
+</head>
+<body>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. .</p>
+
+    <table>
+        <caption>Lista de Alunos</caption>
+        <thead>
+            <tr>
+                <th>Nome</th>
+                <th>Idade</th>
+                <th>Sexo</th>
+            </tr>
+        </thead>
+
+        <tbody>     
+            <tr>
+                <td>Junior</td>
+                <td>40</td>
+                <td>Masculino</td>
+            </tr>
+            <tr>
+                <td>Carla</td>
+                <td>35</td>
+                <td>Feminino</td>
+            </tr>
+            <tr>
+                <td>Davidson</td>
+                <td>13</td>
+                <td>Masculino</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="3">Total de Alunos: 3</td>
+            </tr>
+        </tfoot>
+    </table>
+</html>
