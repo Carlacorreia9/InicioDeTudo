@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="pt-BR">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!--
+    O css pode ser adicionado de duas formas, inline e externo.
+    O css inline é adicionado diretamente na tag, como por exemplo, o style="background:red;" na tag h1.
+    Fora isso, o css externo é adicionado no head do documento, como por exemplo, o link rel="stylesheet" href="style.css".
+    O css externo é o mais utilizado, pois ele separa o estilo do conteúdo, tornando o código mais organizado e fácil de manter.
+    O css inline é mais utilizado para testes rápidos, pois ele não é reutilizável e torna o código mais difícil de ler.
+    O css inline é mais utilizado para testes rápidos, pois ele não é reutilizável e torna o código mais difícil de ler.
+    -->
+    <style>
+        h1 {
+            background: red;
+        }
+        p {
+            background: rgb(255, 230, 0);
+        }
+    </style>
+</head>
+<body>
+    <!--
+    Alinha umas tags dentro de outras tags, como por exemplo, o h1 dentro do body.
+    O h1 é um cabeçalho, o p é um parágrafo, o body é o corpo do documento.
+    OBS: Alumas tags não podem ter outras tags dentro delas, como por exemplo, o h1 não pode ter um p dentro dele.
+    O h1 é um cabeçalho, o p é um parágrafo, o body é o corpo do documento.
+    -->
+    <h1 style="background:red;">
+        Cabecalho da aula 5
+    </h1>
+    <!--
+    A tag style é usada para adicionar estilos ao documento, como por exemplo, a cor de fundo do h1.
+    O h1 é um cabeçalho, o p é um parágrafo, o body é o corpo do documento.
+    -->
+    <p>
+      <b> ipsum </b> dolor sit amet consectetur adipisicing elit. Minima reprehenderit corporis atque facilis similique nulla enim saepe! Nulla minima dolorum, sed quidem totam aliquid aperiam asperiores, debitis mollitia necessitatibus perferendis?
+      Cuidado você vaicair <strong> cair </strong> .
+    </p>
+    <!--
+    Tag que pode usada dentro de textos, como por exemplo, o p dentro do body.
+    Negrito que é tag B ou strong, itálico que é tag I ou em, sublinhado que é tag U ou ins.
+    A tag strong é usada para dar ênfase ao texto, enquanto a tag b é usada para deixar o texto em negrito deixa a palavra mas forte .
+    Exemplo: <strong>texto</strong> e <b>texto</b>.
+    Cuidado você vaicair <strong> cair </strong> .
+
+    -->
+    <p> <i> ipsum dolor sit amet </i> consectetur, adipisicing elit. Omnis, <em> officia quis nemo </em>nesciunt eum alias, a provident quasi tenetur asperiores ipsum tempora. Non beatae optio ea illo veritatis? Quod, hic.</p>
+    <!--
+    Tag itálico que é tag I ou em, sublinhado que é tag U ou ins.
+    A tag em é usada para dar ênfase ao texto, enquanto a tag i é usada para deixar o texto em itálico.
+    Tag em é usada para dar ênfase ao texto, enquanto a tag i é usada para deixar o texto em itálico deixa a palavra forte.
+    Exemplo: <em>texto</em> e <i>texto</i>.
+    -->
+
+    <p> <u> ipsum dolor sit amet </u> consectetur, adipisicing elit. Omnis, <ins> officia quis nemo </ins>nesciunt eum alias, a provident quasi tenetur asperiores ipsum tempora. Non beatae optio ea illo veritatis? Quod, hic.</p>
+    <!--
+    Tag sublinhado que é tag U ou ins.
+    A tag ins é usada para dar ênfase ao texto, enquanto a tag u é usada para deixar o texto sublinhado.
+    Tag ins é usada para dar ênfase ao texto, enquanto a tag u é usada para deixar o texto sublinhado deixa a palavra forte.
+    Exemplo: <ins>texto</ins> e <u>texto</u>.
+    -->
+
+    <p> <s> ipsum dolor sit amet </s> consectetur, adipisicing elit. Omnis, <del> officia quis nemo </del>nesciunt eum alias, a provident quasi tenetur asperiores ipsum tempora. Non beatae optio ea illo veritatis? Quod, hic.</p>
+    <!--
+    Tag tachado que é tag S ou del.
+    A tag del é usada para dar ênfase ao texto, enquanto a tag s é usada para deixar o texto tachado.
+    Tag del é usada para dar ênfase ao texto, enquanto a tag s é usada para deixar o texto tachado deixa a palavra forte.
+    Exemplo: <del>texto</del> e <s>texto</s>.
+    -->
+
+    <p>
+       <a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML" target="_blank">Lorem ipsum dolor sit amet </a>consectetur, adipisicing elit. Aspernatur quisquam iste cumque veritatis, inventore ratione, consequuntur dicta harum cum numquam nesciunt sed, commodi quis alias cupiditate placeat laudantium ipsa quam.
+    </p>
+    <!--
+    tag para links, como por exemplo, o a dentro do body.
+    O a é um link, o href é o endereço do link, o target é o destino do link.
+    O target _blank abre o link em uma nova aba, o target _self abre o link na mesma aba.
+    O href é o endereço do link, o target é o destino do link.
+    ou imagem, como por exemplo, o img dentro do body.
+    O img é uma imagem, o src é o endereço da imagem, o alt é o texto alternativo da imagem.
+    ou um site, como por exemplo, o site dentro do body.
+    O site é um endereço de um site, o href é o endereço do site, o target é o destino do site.
+    A tag blank é usada para abrir o link em uma nova aba, enquanto a tag self é usada para abrir o link na mesma aba.
+    O href é o endereço do site, o target é o destino do site.
+    -->
+    <p>
+        <img class="src=/imag/qa.jpg" alt="image" width="200" height="200">
+
+        <!--
+        tag para imagens, como por exemplo, o img dentro do body.
+        O img é uma imagem, o src é o endereço da imagem, o alt é o texto alternativo da imagem.
+        O src é o endereço da imagem, o alt é o texto alternativo da imagem.
+        A tag img não tem fechamento, pois ela é uma tag auto-fechada ou não tem corpo.
+        A tag img é usada para adicionar imagens ao documento, como por exemplo, a imagem do logo do site.
+
+        --->
+
+        <small> ipsum dolor sit, amet consectetur adipisicing elit.</small> Tempore numquam quam unde accusamus dignissimos praesentium non aperiam dolor? Accusamus minus repudiandae labore officia quis explicabo eveniet quaerat necessitatibus tempora nesciunt?
+       
+    </p>
+
+    <!--
+    Tag para textos pequenos, como por exemplo, o small dentro do body.
+    O small é um texto pequeno, o p é um parágrafo, o body é o corpo do documento.
+    O small é usado para adicionar textos pequenos ao documento, como por exemplo, o texto do rodapé do site.
+---->
+    <p> ipsum dolor sit amet consectetur adipisicing elit. Quisquam, <mark> ips </mark>um dolor sit amet consectetur adipisicing elit. Quisquam, ips </p>
+    <!--
+    Tag para textos destacados, como por exemplo, o mark dentro do body.
+    O mark é um texto destacado, o p é um parágrafo, o body é o corpo do documento.
+    O mark é usado para adicionar textos destacados ao documento, como por exemplo, o texto do rodapé do site.
+    -->
+    <p> 2<sup> 2</sup> adipisicing elit. Quisquam, ips </p>
+
+    <!--
+    Tag para textos sobrescritos, como por exemplo, o sup dentro do body.
+    O sup é um texto sobrescrito, o p é um parágrafo, o body é o corpo do documento.
+    O sup é usado para adicionar textos sobrescritos ao documento, como por exemplo, o texto do rodapé do site.
+    --->
+    <p> H<sub>2</sub>O adipisicing elit. Quisquam, ips </p>
+    <!--
+    Tag para textos subescritos, como por exemplo, o sub dentro do body.
+    O sub é um texto subescrito, o p é um parágrafo, o body é o corpo do documento.
+    O sub é usado para adicionar textos subescritos ao documento, como por exemplo, o texto do rodapé do site.
+    --->
+    <p> ipsum dolor sit amet consectetur adipisicing elit. <br>, ips </p>
+    <!--
+    Tag para quebras de linha, como por exemplo, o br dentro do body.
+    O br é uma quebra de linha, o p é um parágrafo, o body é o corpo do documento.
+    O br é usado para adicionar quebras de linha ao documento, como por exemplo, a quebra de linha do rodapé do site.
+    O br é uma tag auto-fechada ou não tem corpo, pois ela não tem fechamento.
+    --->
+    <p> <q>dolor sit amet</q> ou <q cite="https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element"></q> consectetur adipisicing elit. ips 
+    <!--
+    Tag para citações, como por exemplo, o q dentro do body.
+    O q é uma citação, o p é um parágrafo, o body é o corpo do documento.
+    O q é usado para adicionar citações ao documento, como por exemplo, a citação do rodapé do site.
+    O q é uma tag auto-fechada ou não tem corpo, pois ela não tem fechamento.
+    --->
+    </p>
+
+
+
+
+    <!--
+        TAG QUE NÃO PODE ESTÁ DENTRO DO P PARÁGRAFO.
+        -->
+   
+    <blockquote cite="https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element">Aqui sim eu estou fazendo um bloco de citação.</blockquote>
+        
+        <!--
+        COMO POR EXEMPLO, O BLOCKQUOTE DENTRO DO BODY.
+        O BLOCKQUOTE É UMA CITAÇÃO LONGA, O P É UM PARÁGRAFO, O BODY É O CORPO DO DOCUMENTO.
+        O BLOCKQUOTE É USADO PARA ADICIONAR CITAÇÕES LONGAS AO DOCUMENTO, COMO POR EXEMPLO, A CITAÇÃO DO RODAPÉ DO SITE.
+        O BLOCKQUOTE É UMA TAG AUTO-FECHADA OU NÃO TEM CORPO, POIS ELA NÃO TEM FECHAMENTO.
+        -->
+
+        <blockquote cite="https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element">
+            <p></p> Sim eu estou fazendo um bloco de citação.</p></blockquote>
+        <!--
+            Posso usar o blockquote dentro do p parágrafo, como por exemplo, o blockquote dentro do body.
+            dentro da minha citação, eu posso usar o p parágrafo.
+            O blockquote é uma citação longa, o p é um parágrafo, o body é o corpo do documento.
+            --->
+
+        <p> ipsum dolor sit amet consectetur adipisicing elit. Quisquam, ips </p>
+        <!--
+            Tag hr é uma linha horizontal, como por exemplo, o hr dentro do body.
+            O hr é uma linha horizontal, o p é um parágrafo, o body é o corpo do documento.
+            O hr é usado para adicionar linhas horizontais ao documento, como por exemplo, a linha horizontal do rodapé do site.
+            O hr é uma tag auto-fechada ou não tem corpo, pois ela não tem fechamento.
+            O hr é usado para separar conteúdos, como por exemplo, a linha horizontal do rodapé do site.
+            --->
+        <hr>
+
+        <p> ipsum dolor sit amet consectetur adipisicing elit. Quisquam, ips </p>
+        <!--
+            Tag br é uma quebra de linha, como por exemplo, o br dentro do body.
+            O br é uma quebra de linha, o p é um parágrafo, o body é o corpo do documento.
+            O br é usado para adicionar quebras de linha ao documento, como por exemplo, a quebra de linha do rodapé do site.
+            O br é uma tag auto-fechada ou não tem corpo, pois ela não tem fechamento.
+            O br é usado para separar conteúdos, como por exemplo, a quebra de linha do rodapé do site.
+            --->
+        <br>
+
+        <p> <code> dolor sit amet </code> consectetur adipisicing elit. Quisquam, ips </p>
+        <!--
+            Tag code é um código, como por exemplo, o code dentro do body.
+            O code é um código, o p é um parágrafo, o body é o corpo do documento.
+            O code é usado para adicionar códigos ao documento, como por exemplo, o código do rodapé do site.
+            O code é uma tag auto-fechada ou não tem corpo, pois ela não tem fechamento.
+            O code é usado para separar conteúdos, como por exemplo, o código do rodapé do site.
+            --->
+        <p> <samp style="color: blueviolet;"> dolor sit amet consectetur adipisicing elit. Quisquam, ips Lorem ipsum dolor sit, amet consectetur adipisicing elit.</samp> Placeat neque quam facere vel exercitationem atque autem nobis natus consequuntur recusandae officiis fuga, nemo deserunt, repudiandae accusantium! Tempore quo dignissimos libero. </p>
+    <!--
+        Tag samp é um código de amostra, como por exemplo, o samp dentro do body.
+        O samp é um código de amostra, o p é um parágrafo, o body é o corpo do documento.
+        -->
+
+        <p> <div class="azul">dolor sit amet consectetur adipisicing elit. </div>Quisquam, ips Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus odio error quidem in illum perferendis, corporis est amet minima inventore dicta! Saepe quis velit soluta nostrum maxime. Perspiciatis, ducimus aperiam.</p>
+
+       
+   
+</body>
+</html>
