@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="#" method="post">
+        <label for="nome">Nome:</label>
+        <input type="text" name="nome" id="nome" required>
+        <br><br>
+        <label for="idade">Idade:</label>
+        <input type="number" name="idade" id="idade" required>
+        <br><br>
+        <label for="sexo">Sexo:</label>
+        <select name="sexo" id="sexo">
+            <option value="masculino">Masculino</option>
+            <option value="feminino">Feminino</option>
+            <option value="outro">Outro</option>
+        </select>
+        <br><br>
+
+        <label for="password">senha</label>
+        <input type="password" name="password" id="password" placeholder="Digite sua senha" required>
+        <br><br>
+
+
+        <input type="submit" value="Enviar">
+
+<label for="search">Pesquisar:</label>
+        <input type="search" name="search" id="search" placeholder="Digite sua pesquisa">
+        <br><br>
+
+        <label for="select">Selecione uma opção:</label>
+        <select name="select" id="select">
+            <option value="opcao1">Opção 1</option>
+            <option value="opcao2">Opção 2</option>
+            <option value="opcao3">Opção 3</option>
+        </select>
+        <br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email" placeholder="Digite seu email" required>
+        <br><br>
+
+        <label for="telefone">Telefone:</label>
+        <input type="tel" name="telefone" id="telefone" placeholder="Digite seu telefone" required>
+        <br><br>
+
+        <label for="url">URL:</label>
+        <input type="url" name="url" id="url" placeholder="Digite sua URL" required>
+        <br><br>
+
+        <label for="cor">Cor favorita:</label>
+        <input type="color" name="cor" id="cor">
+        <br><br>
+    </form>
+
+<!--    
+form é um elemento HTML que cria um formulário para coletar dados do usuário.
+action="#" define o destino dos dados do formulário quando enviados. O valor # indica que os dados não serão enviados para lugar nenhum, apenas para fins de demonstração.
+method="post" especifica que os dados do formulário serão enviados usando o método POST, que é mais seguro para enviar informações sensíveis.
+label é usado para associar um rótulo a um campo de entrada, melhorando a acessibilidade.
+options são as opções disponíveis em um menu suspenso (select). Cada option tem um valor associado que será enviado quando o formulário for enviado.
+input type="submit" cria um botão que envia o formulário quando clicado.           
+ -->
+<form action="#" method="get" target="_blank" autocomplete="off">
+    <section>
+        <h2>Formulário de Cadastro</h2>
+        <label for="nome">Nome:</label>
+    
+        <input type="text" id="nome" name="nome"
+        placeholder="Digite seu nome" value="Digite seu nome">   <br><br>  
+
+        <label for="nome">Data:</label>
+        <input type="number" id="idade" name="idade" placeholder="Data d Nascimento" required><br><br>
+
+        <label for="idade">Idade:</label>
+        <input type="date" id="nome" name="idade" required><br><br>
+
+        <label for="sexo">Sexo:</label>
+        <select id="sexo" name="sexo">
+            <option value="masculino">Masculino</option>
+            <option value="feminino">Feminino</option>
+            <option value="outro">Outro</option>
+        </select><br><br>
+
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Limpar"><br><br>
+        <label for="termos" title="Aceite os termos para continuar">
+            <input type="checkbox" id="termos" name="termos" required> Aceito os termos
+        </label>
+        
+
+        <label for="file">Sua foto:</label>
+        <input type="file" id="file" accept="png, svg,image" multiple><br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Digite seu email" required><br><br>
+
+        <label for="senha">Senha:</label>
+        <input type="password" id="senha" name="senha" placeholder="Digite sua senha" required><br><br>
+
+        <label for="telefone">Telefone:</label>
+        <input type="tel" id="telefone" name="telefone" placeholder="Digite seu telefone" required><br><br>
+
+        <label for="url">URL:</label>
+        <input type="url" id="url" name="url" placeholder="Digite sua URL" required><br><br>
+
+        <label for="cor">Cor favorita:</label>
+        <input type="color" id="cor" name="cor" value="#ff0000"><br><br>    
+
+        <label for="range">Faixa de preço:</label>
+        <input type="range" id="range" name="range" min="0" max="100" step="10"><br><br>
+
+        <label for="textarea">Mensagem:</label><br>
+        <textarea id="textarea" name="textarea" rows="4" cols="50" placeholder="Digite sua mensagem"></textarea><br><br>
+
+        <label for="radio">Escolha uma opção:</label><br>
+        <input type="radio" id="opcao1" name="radio" value="opcao1">
+
+        <label for="opcao1">Opção 1</label><br>
+        <input type="radio" id="opcao2" name="radio" value="opcao2">
+        <label for="opcao2">Opção 2</label><br>
+        <input type="radio" id="opcao3" name="radio" value="opcao3">
+        <label for="opcao3">Opção 3</label>
+        <br><br>
+
+        <label for="estado">Estado:</label>
+        <input type="text" id="estado" name="estado" placeholder="Digite seu estado" required><br><br>
+
+        <label for="cidade">Cidade:</label>
+        <input type="text" id="cidade" name="cidade" placeholder="Digite sua cidade" required><br><br>
+
+        <label for="cep">CEP:</label>
+        <input type="text" id="cep" name="cep" placeholder="Digite seu CEP" required><br><br>
+
+        <label for="endereco">Endereço:</label>
+        <input type="text" id="endereco" name="endereco" placeholder="Digite seu endereço" required><br><br>
+
+        <label for="numero">Número:</label>
+        <input type="text" id="numero" name="numero" placeholder="Digite seu número" required><br><br>
+
+        <label for="complemento">Complemento:</label>
+        <input type="text" id="complemento" name="complemento" placeholder="Digite seu complemento"><br><br>
+
+        <label for="bairro">Bairro:</label>
+        <input type="text" id="bairro" name="bairro" placeholder="Digite seu bairro" required><br><br>
+
+        <label for="pais">País:</label>
+        <input type="text" id="pais" name="pais" placeholder="Digite seu país" required><br><br>
+
+        <label for="nacionalidade">Nacionalidade:</label>
+        <input type="text" id="nacionalidade" name="nacionalidade" placeholder="Digite sua nacionalidade" required><br><br>
+
+        <label for="profissao">Profissão:</label>
+        <input type="text" id="profissao" name="profissao" placeholder="Digite sua profissão" required><br><br>
+
+        <label for="empresa">Empresa:</label>
+        <input type="text" id="empresa" name="empresa" placeholder="Digite sua empresa"><br><br>
+
+        <label for="cargo">Cargo:</label>
+        <input type="text" id="cargo" name="cargo" placeholder="Digite seu cargo"><br><br>
+
+        <label for="salario">Salário:</label>
+        <input type="text" id="salario" name="salario" placeholder="Digite seu salário"><br><br>
+
+        <label for="experiencia">Experiência:</label>
+        <input type="text" id="experiencia" name="experiencia" placeholder="Digite sua experiência"><br><br>
+
+        <label for="habilidades">Habilidades:</label>
+        <input type="text" id="habilidades" name="habilidades" placeholder="Digite suas habilidades"><br><br>
+
+        <label for="idiomas">Idiomas:</label>
+        <input type="text" id="idiomas" name="idiomas" placeholder="Digite os idiomas que fala"><br><br>
+
+        <label for="certificacoes">Certificações:</label>
+        <input type="text" id="certificacoes" name="certificacoes" placeholder="Digite suas certificações"><br><br>
+
+        <label for="linkedin">LinkedIn:</label>
+        <input type="text" id="linkedin" name="linkedin" placeholder="Digite seu LinkedIn"><br><br>
+
+        <label for="github">GitHub:</label>
+        <input type="text" id="github" name="github" placeholder="Digite seu GitHub"><br><br>
+
+        <label for="portfolio">Portfólio:</label>
+        <input type="text" id="portfolio" name="portfolio" placeholder="Digite seu portfólio"><br><br>
+
+        <label for="site">Site:</label>
+        <input type="text" id="site" name="site" placeholder="Digite seu site"><br><br>
+
+        <label for="blog">Blog:</label>
+        <input type="text" id="blog" name="blog" placeholder="Digite seu blog"><br><br>
+
+        <label for="twitter">Twitter:</label>
+        <input type="text" id="twitter" name="twitter" placeholder="Digite seu Twitter"><br><br>
+
+        <label for="facebook">Facebook:</label>
+        <input type="text" id="facebook" name="facebook" placeholder="Digite seu Facebook"><br><br>
+
+        <label for="instagram">Instagram:</label>
+        <input type="text" id="instagram" name="instagram" placeholder="Digite seu Instagram"><br><br>
+
+        <label for="whatsapp">WhatsApp:</label>
+        <input type="text" id="whatsapp" name="whatsapp" placeholder="Digite seu WhatsApp"><br><br>
+
+        <label for="skype">Skype:</label>
+        <input type="text" id="skype" name="skype" placeholder="Digite seu Skype"><br><br>
+
+        <label for="telegram">Telegram:</label>
+        <input type="text" id="telegram" name="telegram" placeholder="Digite seu Telegram"><br><br>
+
+        <label for="discord">Discord:</label>
+        <input type="text" id="discord" name="discord" placeholder="Digite seu Discord"><br><br>
+
+        <label for="snapchat">Snapchat:</label>
+        <input type="text" id="snapchat" name="snapchat" placeholder="Digite seu Snapchat"><br><br>
+
+
+
+    </section>
+    <!--
+    required é um atributo que indica que o campo deve ser preenchido antes de enviar o formulário.
+    placeholder fornece um texto de exemplo dentro do campo de entrada, indicando o que deve ser inserido.
+    value define um valor padrão que será exibido no campo de entrada quando a página for carregada.
+    submit cria um botão que envia o formulário quando clicado.
+    reset cria um botão que limpa todos os campos do formulário quando clicado.
+    checkbox cria uma caixa de seleção que o usuário pode marcar ou desmarcar. Neste caso, é usada para aceitar os termos do formulário.
+    target="_blank" faz com que o formulário seja enviado em uma nova aba ou janela do navegador.
+    autocomplete="off" desativa o preenchimento automático do navegador para os campos do formulário.
+    for é um atributo que associa o rótulo a um campo de entrada específico, melhorando a acessibilidade.
+    -->
+  
+</form>
+</body>
+</html>

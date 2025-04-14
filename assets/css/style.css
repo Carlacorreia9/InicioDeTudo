@@ -1,0 +1,89 @@
+* {
+   margin: 0;
+    padding: 0;
+}
+
+p {
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+    color: #333;
+}
+h1 {
+    font-size: 2rem;
+    line-height: 2.5rem;
+}
+
+[meu-atributo] {
+    background-color: #f0f0f0;
+    padding: 10px;
+    border-radius: 5px;
+}
+h1[meu-atributo] {
+    color: blue;
+
+}
+
+.heading {       
+    background-color: #434147;
+    padding: 10px;
+    border-radius: 5px;
+    transition: all 0.3s ease-in-out;
+
+}
+
+.heading:hover {
+    background-color: #2cdb14;
+    color: #fff;
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+a:hover {
+    color: #2cdb14;
+}
+
+a:active {
+    color: #ff0000;
+}
+a:visited {
+    color: #0000ff;
+}
+
+input[type="text"] {
+    width: 80%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    box-shadow: white 0px 0px 5px;
+}
+
+p:not(.meio) {
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+    color: #0227f7;
+}
+
+input:not(:checked) + p {
+   background: yellow  ;
+}
+
+ul li:nth-child(even) {
+    background-color: #c40ffc;
+}
+
+ul li:nth-child(odd) {
+    background-color: #ff0f0f;
+}
+
+ul li:nth-child(3n) {
+    background-color: #330ffc;
+}
+
+ul li::after {
+    content: " - item";
+    color: #000000;
+}
